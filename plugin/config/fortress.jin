@@ -1,0 +1,15 @@
+[fortress]
+
+	providers = [
+		; 'SomeProvider'
+	];
+
+[application]
+
+	aliases = {
+		; "Fortress\\UserResolver": "UserResolver"
+	}
+
+	delegates = [
+		"Hiraeth\\Fortress\\SessionGatewayDelegate"
+	];
